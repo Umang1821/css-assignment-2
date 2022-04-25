@@ -1,0 +1,220 @@
+html{
+    font-size: 20px;
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+body{
+    background-color: rgb(22, 39, 189);
+}
+.units{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+.square1{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(8, 242, 129);
+    color: white;
+    margin: 20px;
+    
+}
+.square2{
+    height: 15rem;
+    width: 15rem;
+    background-color:  rgb(8, 242, 129);
+    color: white;
+    margin: 20px;
+    padding-top: 4rem;
+}
+.square3{
+    height: 15m;
+    width: 15em;
+    background-color: rgb(8, 242, 129);
+    color: white;
+    margin: 20px;
+    padding-top: 4em;
+}
+.square4{
+    height: 25vh;
+    width: 25vh;
+    background-color:  rgb(8, 242, 129);
+    color: white;
+    margin: 20px;
+    text-align: center;
+    padding-top: 3vh;
+}
+.square5{
+    height: 50vw;
+    width: 50vw;
+    background-color: rgb(8, 242, 129);
+    color: white;
+    margin: 20px;
+    padding-top: 9vw;
+}
+.one{
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two{
+    font-size: 5rem;
+    margin: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.three{
+    font-size: 5em;
+    margin: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.four{
+    font-size: 5vh;
+    margin: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.five{
+    font-size: 5vw;
+    margin: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.button{
+    font-size: 30px;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+.text{
+    border: 3px;
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.one.two.three{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+div.Child div.first > p {
+    background-color: rgb(38, 0, 255);
+    width
+  }
+  div.Child div.first1 > p {
+    background-color: rgb(38, 0, 255);
+  }
+
+h1{
+    text-align: center;
+}
+body{
+    background-color:rgb(161, 197, 189);
+}
+div.adjacent div.sibling1 + p{
+    background-color: rgb(68, 176, 222);
+}
+div.general div.sibling2 ~p{
+    background-color: pink;
+}
+.general{
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+}
+.adjacent{
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+}
+.Child{
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+     margin-top: 20px ;
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.transition{
+    height: 40px;
+    width: auto;
+    margin-bottom: 280px;;
+}
+h1{
+    text-align: center;
+}
+.ex1{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(122, 216, 233);
+    margin-top: 100px;
+    margin-left: 400px;
+    transition: width 2s ,height 2s ;
+}
+body{
+    background-color: skyblue;
+}
+
+.ex1:hover{
+    width: 500px;
+    height: 150px;
+}
+
+.transform{
+    height: 10px;
+    width: auto;
+    margin-bottom: 380px;
+}
+.two{
+    margin-top: 50px;
+}
+.ex2{
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    margin-top: 100px;
+    margin-left: 400px;
+    transition: width 6s ,height 2s , transform 2s;
+    margin-bottom: 80px;
+}
+
+.ex2:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: rgb(30,80,60);
+}
+div.chain{
+    height: 450px;
+    width: 300px;
+    background-color: pink;
+    margin-left: 500px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+div.chain p{
+    padding: 20px;
+    overflow: hidden;
+}
